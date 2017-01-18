@@ -1,0 +1,7 @@
+[package]
+name = "pw_rucovery"
+version = "0.1.0"
+authors = ["NucsuM <nucsum@mailbox.org>"]
+
+[dependencies]
+num = ""
