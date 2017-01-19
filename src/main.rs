@@ -165,7 +165,7 @@ impl BruteForce {
         }
 
         if self.pw_length == 8 {
-                        for i in self.char_range.clone() {
+            for i in self.char_range.clone() {
                 for j in self.char_range.clone() {
                     for k in self.char_range.clone() {
                         for l in self.char_range.clone() {
@@ -210,12 +210,11 @@ fn main() {
 
     let mut br = BruteForce::default();
 
-    br.set_char_range("11111".to_string()); 
-
+    br.set_char_range("01000".to_string()); 
 
     println!("{:?}",String::from_utf8_lossy(&br.char_range));
 
-    br.pw_length = 3; 
+    br.pw_length = 5; 
     br.run_loops();
 
 }
