@@ -3,7 +3,7 @@
 
 TODOs
 - [x] Bruteforce
-- [ ] dictionary
+- [ ] dictionary (some files from https://github.com/danielmiessler/SecLists)
 - [x] modulize code 
 - [ ] tests
 - [ ] implement call of unzip/7zip
